@@ -1,0 +1,109 @@
+h1 { /*Company Name Home*/
+font-family: Brandon Grotesque;
+font-style: bold;
+font-weight: bolder;
+font-size: 24px;
+line-height: 0px;
+
+letter-spacing: 0.15em;
+text-transform: uppercase;
+}
+
+h2 { /*CAFE Home*/
+
+font-family: Brandon Grotesque;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 24px;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+}
+
+h3 { /*Products Font*/
+
+font-family: Montserrat;
+font-style: bold;
+font-weight: bold;
+font-size: 18px;
+line-height: 0px;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+}
+
+h4 { /*product description font*/
+    
+font-family: Muli;
+font-style: normal;
+font-weight: lighter;
+font-size: 11px;
+line-height: 18px;
+}
+
+h5 { /*Big Header for name*/
+    
+font-family: Brandon Grotesque;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 0px;
+
+text-align: center;
+letter-spacing: 0.07em;
+text-transform: uppercase;
+
+}
+
+h6 { /*Big Header for pages*/ 
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 59px;
+
+text-align: right;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+
+color: #F9F7EF;}
+
+h7 { /*CAFE Home*/
+
+font-family: Brandon Grotesque;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 15px;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+}
+
+h8 {
+position:absolute;
+    left: auto;
+    right: auto;
+    bottom: 0px;
+font-family: Muli;
+font-style: normal;
+font-weight: lighter;
+font-size: 9px;
+line-height: 10px;
+}
+
+
+a:link {
+    color: #F9F7EF;
+    text-decoration: none;
+}
+
+a:visited
+{
+    color: #F9F7EF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightgoldenrodyellow;
+    text-decoration: none;
+}

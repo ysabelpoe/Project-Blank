@@ -1,0 +1,29 @@
+<html>
+    <header>
+    </header>
+    <body>
+        <p/>
+        {% include "header.html" %}
+        <h1>Product Details</h1>
+        <table>
+            <tr><td>Code</td><td>{{product["code"]}}</td></tr>
+            <tr><td>Description</td><td>{{ product["name"] }}</td></tr>
+            <tr><td>Price</td><td>{{ product["price"]}}</td></tr>
+
+            {% if session["user"] is defined %}
+            <tr>
+                <td>Quanitity</td>
+                <td>
+                  <form action="/addtocart" method="POST">
+                  <input type="hidden" name="code" value="{{ code }}">
+                  <input type="number" name="quantity" min="1" step="1" pattern="\d*" value="1">
+                  <input type="submit" value="Add to Cart">
+                  </form>
+                </td>
+            </tr>
+            {% endif %}
+        </table>
+        <a href="/products">Back</a>
+        {% include "footer.html" %}
+    </body>
+</html>
